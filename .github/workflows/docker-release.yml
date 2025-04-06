@@ -2,7 +2,7 @@ name: build & push docker container
 on:
   push:
     tags:
-      - '*'
+      - '*Release*'
   pull_request:
     branches:
       - main
