@@ -5,7 +5,7 @@ on:
       - '*Release*'
   pull_request:
     branches:
-      - main
+      - master
 jobs:
   docker:
     runs-on: ubuntu-latest
